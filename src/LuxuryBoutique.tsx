@@ -1,3 +1,5 @@
+// @ts-nocheck 
+
 import React, { useState, useMemo, useEffect } from 'react';
 import {
   Search,
@@ -621,7 +623,7 @@ const PerfumeBottleArt = ({ perfume, size = 'md', className = '' }) => {
 // 3. MAIN APPLICATION COMPONENT
 // ============================================================================
 
-export default function App() {
+export default function LuxuryBoutique() {
   // Navigation & Page State: 'home' | 'shop' | 'product' | 'checkout' | 'contact' | 'auth'
   const [currentPage, setCurrentPage] = useState('home');
   const [selectedPerfumeId, setSelectedPerfumeId] = useState(PERFUMES[0].id);

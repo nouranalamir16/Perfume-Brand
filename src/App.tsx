@@ -1,4 +1,4 @@
-import LuxuryBoutique from './l_atelier_de_parfum_luxury_fragrance_boutique';
+import LuxuryBoutique from './LuxuryBoutique';
 
 function App() {
   return <LuxuryBoutique />;
